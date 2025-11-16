@@ -5,8 +5,8 @@
 import FlutterMacOS
 import Foundation
 
-import smart_auth
+import shared_preferences_foundation
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  SmartAuthPlugin.register(with: registry.registrar(forPlugin: "SmartAuthPlugin"))
+  SharedPreferencesPlugin.register(with: registry.registrar(forPlugin: "SharedPreferencesPlugin"))
 }

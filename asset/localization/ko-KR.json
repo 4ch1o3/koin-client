@@ -1,0 +1,13 @@
+{
+  "signup_main_loginWithGoogle": "Google로 로그인하기",
+  "signup_main_loginWithKakao": "Kakao로 로그인하기",
+  "signup_main_loginWithEmail": "이메일로 로그인하기",
+  "signup_main_signUp": "회원가입",
+  "signup_main_guidedText": "가입 정보가 기억나지 않나요?",
+  "signup_main_findAccount": "계정/비밀번호 찾기",
+
+  "signIn_email_email": "이메일",
+  "signIn_email_password": "비밀번호",
+
+  "signIn_email_loginButtonLabel": "로그인"
+}
