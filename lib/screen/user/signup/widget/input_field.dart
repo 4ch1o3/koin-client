@@ -32,9 +32,9 @@ class _InputFieldState extends State<InputField> {
       controller: widget.inputTextController,
 
       keyboardType: TextInputType.emailAddress,
-      cursorColor: BLACK_COLOR,
+      cursorColor: GrayScale.black,
       // TODO: apply new style?
-      style: const TextStyle(color: BLACK_COLOR),
+      style: const TextStyle(color: GrayScale.black),
       decoration: InputDecoration(
         labelText: widget.labelText,
         labelStyle: Theme.of(context).textTheme.bodyLarge?.copyWith(

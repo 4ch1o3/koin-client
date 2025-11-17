@@ -45,13 +45,13 @@ class _SecurityCodeScreenState extends State<SecurityCodeScreen> {
         elevation: 0,
         toolbarHeight: 80,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios, color: WHITE_COLOR),
+          icon: const Icon(Icons.arrow_back_ios, color: GrayScale.white),
           onPressed: () => Navigator.of(context).pop(),
         ),
         title: const Text(
           'Security Code',
           style: TextStyle(
-            color: WHITE_COLOR,
+            color: GrayScale.white,
             fontWeight: FontWeight.bold,
             fontSize: 24,
           ),
@@ -118,7 +118,7 @@ class _SecurityCodeScreenState extends State<SecurityCodeScreen> {
                 ),
                 child: const Text(
                   'Resend the code',
-                  style: TextStyle(color: WHITE_COLOR),
+                  style: TextStyle(color: GrayScale.white),
                 ),
               ),
             ),
@@ -137,7 +137,7 @@ class _SecurityCodeScreenState extends State<SecurityCodeScreen> {
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: PRIMARY_COLOR,
-                  foregroundColor: WHITE_COLOR,
+                  foregroundColor: GrayScale.white,
                   minimumSize: const Size(double.infinity, 52),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(26),

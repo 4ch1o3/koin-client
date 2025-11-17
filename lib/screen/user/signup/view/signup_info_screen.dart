@@ -59,14 +59,14 @@ class _SignUpInfoScreenState extends State<SignUpInfoScreen> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios, color: BLACK_COLOR),
+          icon: const Icon(Icons.arrow_back_ios, color: GrayScale.black),
           onPressed: () => Navigator.of(context).pop(),
         ),
       ),
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [GRADIENT_COLOR, WHITE_COLOR],
+            colors: [GRADIENT_COLOR, GrayScale.white],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
             stops: [0.0, 0.4],
@@ -84,7 +84,7 @@ class _SignUpInfoScreenState extends State<SignUpInfoScreen> {
                   fontFamily: 'Pretendard',
                   fontSize: 20,
                   fontWeight: FontWeight.w600,
-                  color: BLACK_COLOR,
+                  color: GrayScale.black,
                 ),
               ),
               const SizedBox(height: 5),
@@ -102,7 +102,7 @@ class _SignUpInfoScreenState extends State<SignUpInfoScreen> {
                     ),
                     TextSpan(
                       text: '를 알려주세요.',
-                      style: TextStyle(color: BLACK_COLOR),
+                      style: TextStyle(color: GrayScale.black),
                     ),
                   ],
                 ),
@@ -172,7 +172,7 @@ class _SignUpInfoScreenState extends State<SignUpInfoScreen> {
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: PRIMARY_COLOR,
-                    foregroundColor: WHITE_COLOR,
+                    foregroundColor: GrayScale.white,
                     minimumSize: const Size(double.infinity, 52),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(26),

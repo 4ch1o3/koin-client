@@ -32,7 +32,7 @@ class GradientContainer extends StatelessWidget {
           Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
-                colors: [GRADIENT_COLOR, WHITE_COLOR],
+                colors: [GRADIENT_COLOR, GrayScale.white],
                 begin: Alignment.topLeft,
                 end: Alignment.center,
               ),

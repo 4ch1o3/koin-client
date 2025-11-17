@@ -40,7 +40,7 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
         ),
         TextField(
           controller: controller,
-          style: const TextStyle(color: BLACK_COLOR, fontSize: 18),
+          style: const TextStyle(color: GrayScale.black, fontSize: 18),
           decoration: InputDecoration(
             hintText: hintText,
             hintStyle: const TextStyle(color: Colors.grey),
@@ -79,7 +79,7 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
     // TODO: fix to check if all inputs are not empty
     final bool isButtonEnabled = _emailController.text.isNotEmpty;
     return Scaffold(
-      backgroundColor: WHITE_COLOR,
+      backgroundColor: GrayScale.white,
 
       body: GradientContainer(
         hasSubmitButton: true,
@@ -136,7 +136,7 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
             //   },
             //   style: ElevatedButton.styleFrom(
             //     backgroundColor: PRIMARY_COLOR,
-            //     foregroundColor: WHITE_COLOR,
+            //     foregroundColor: GrayScale.white,
             //     minimumSize: const Size(double.infinity, 52),
             //     shape: RoundedRectangleBorder(
             //       borderRadius: BorderRadius.circular(26),

@@ -71,7 +71,7 @@ class DropdownField extends StatelessWidget {
                   fontFamily: 'GapyeongHanseokbong',
                   fontWeight: FontWeight.w700,
                   fontSize: 18,
-                  color: BLACK_COLOR,
+                  color: GrayScale.black,
                 ),
               );
             }).toList();
