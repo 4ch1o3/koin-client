@@ -22,9 +22,7 @@ class DropdownField extends StatelessWidget {
       children: [
         Text(
           label,
-          style: const TextStyle(
-            fontFamily: 'Pretendard',
-            fontSize: 12,
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
             fontWeight: FontWeight.w500,
             color: PRIMARY_COLOR,
           ),
@@ -44,9 +42,9 @@ class DropdownField extends StatelessWidget {
           isExpanded: true,
           hint: Text(
             'Select $label',
-            style: const TextStyle(
-              fontFamily: 'Pretendard',
-              color: Colors.grey,
+            style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+              fontWeight: FontWeight.w400,
+              color: GrayScale.gray400,
             ),
           ),
           items:
@@ -55,9 +53,8 @@ class DropdownField extends StatelessWidget {
                   value: item,
                   child: Text(
                     item,
-                    style: const TextStyle(
-                      fontFamily: 'GapyeongHanseokbong',
-                      fontWeight: FontWeight.w700,
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                      fontWeight: FontWeight.w400,
                     ),
                   ),
                 );
@@ -67,11 +64,8 @@ class DropdownField extends StatelessWidget {
             return items.map<Widget>((String item) {
               return Text(
                 item,
-                style: const TextStyle(
-                  fontFamily: 'GapyeongHanseokbong',
-                  fontWeight: FontWeight.w700,
-                  fontSize: 18,
-                  color: GrayScale.black,
+                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                  fontWeight: FontWeight.w400,
                 ),
               );
             }).toList();
