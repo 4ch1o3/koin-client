@@ -77,7 +77,7 @@ class _InputFieldState extends State<InputField> {
           ),
           TextField(
             controller: widget.inputTextController,
-            obscureText: !_showPassword,
+            obscureText: widget.type == InputType.password && !_showPassword,
 
             keyboardType: keyboardType,
             cursorColor: GrayScale.black,
@@ -89,14 +89,6 @@ class _InputFieldState extends State<InputField> {
                 context,
               ).textTheme.headlineSmall?.copyWith(color: GrayScale.gray400),
 
-              // NOTE: label makes small title which is animated when focused
-              // labelText: widget.labelText,
-              // labelStyle: Theme.of(context).textTheme.bodyLarge?.copyWith(
-              //   fontWeight: FontWeight.w500,
-              //   color: PRIMARY_COLOR,
-              // ),
-
-              // floatingLabelStyle: TextStyle(color: PRIMARY_COLOR),
               enabledBorder: UnderlineInputBorder(
                 borderSide: BorderSide(color: PRIMARY_COLOR),
               ),

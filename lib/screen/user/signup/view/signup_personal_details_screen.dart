@@ -33,14 +33,6 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
     super.dispose();
   }
 
-  // Widget _buildTextField({
-  //   required String label,
-  //   String? hintText,
-  //   TextEditingController? controller,
-  // }) {
-  //   return InputField(inputTextController: controller, labelText: '',, type: null,, showPassword: null,);
-  // }
-
   void _onPressed() {
     final email = _emailController.text;
     if (email.isEmpty || !validateEmail(_emailController.text)) {
@@ -124,39 +116,7 @@ class _PersonalDetailsScreenState extends State<PersonalDetailsScreen> {
             guideText: "Do you have any questions?",
             label: "Terms of Use",
           ),
-          // const PageIndicator(length: 3, currentIndex: 0),
-          // ElevatedButton(
-          //   onPressed: () {
-          //     final email = _emailController.text;
-          //     if (email.isEmpty || !email.contains('@')) {
-          //       ScaffoldMessenger.of(context).showSnackBar(
-          //         const SnackBar(content: Text('올바른 이메일을 입력해주세요.')),
-          //       );
-          //       return;
-          //     }
-          //     Navigator.of(context).push(
-          //       MaterialPageRoute(
-          //         builder: (context) => SecurityCodeScreen(email: email),
-          //       ),
-          //     );
-          //   },
-          //   style: ElevatedButton.styleFrom(
-          //     backgroundColor: PRIMARY_COLOR,
-          //     foregroundColor: GrayScale.white,
-          //     minimumSize: const Size(double.infinity, 52),
-          //     shape: RoundedRectangleBorder(
-          //       borderRadius: BorderRadius.circular(26),
-          //     ),
-          //   ),
-          //   child: const Text(
-          //     'Next',
-          //     style: TextStyle(
-          //       fontFamily: 'Pretendard',
-          //       fontSize: 18,
-          //       fontWeight: FontWeight.w400,
-          //     ),
-          //   ),
-          // ),
+
           const Spacer(flex: 3),
         ],
       ),
