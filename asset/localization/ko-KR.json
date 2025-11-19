@@ -45,5 +45,20 @@
   "signUp_category_title_part3": "를\n자유롭게 선택해주세요.",
   "signUp_category_subtitle_category": "카테고리",
   "signUp_category_subtitle_region": "지역",
-  "signUp_category_subtitle_culture": "문화"
+  "signUp_category_subtitle_culture": "문화",
+
+  "koin_kurationBanner_section_kuration": "큐레이션 K-uration",
+  "koin_kurationBanner_title_userGuide": "Koin 이용 가이드",
+  "koin_kurationBanner_section_recommended": "추천 콘텐츠",
+  "koin_kurationBanner_title_topKuration": "인기 큐레이션",
+  "koin_kurationBanner_section_newFeature": "새로운 기능",
+  "koin_kurationBanner_title_latestUpdate": "최신 업데이트",
+  "koin_kurationBanner_cardNews": "카드뉴스 →",
+
+  "koin_myMenu_ko": "내 메뉴",
+  "koin_myMenu_en": "My Menu",
+  "koin_kommunity_ko": "커뮤니티",
+  "koin_kommunity_en": "K-ommunity",
+  "koin_kommunity_seeAll": "전체보기 →",
+  "koin_kommunity_nMinuteAgo": "{n}분 전"
 }
